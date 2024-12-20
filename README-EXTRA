@@ -1,0 +1,50 @@
+tasks for initial set up
+
+1 . clone project 
+2 . run the command : npm run dev for local set and go to localhost:8080
+3 click on login enter email : manishpremi12@hotmail.com
+						password : password
+4. got to http://localhost:8081/mymatch/11
+
+that's all , for starting a
+
+
+https://iconsax.gitlab.io/i/view/
+
+
+
+Run Prod build on local 
+
+1.  npm run build
+2. serve -s dist (npm install serve if not installed)
+
+
+https://caper-fe.s3.eu-north-1.amazonaws.com/
+
+{
+			"Sid": "2",
+			"Effect": "Allow",
+			"Principal": {
+				"AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity E37KXAJF6DEGGM"
+			},
+			"Action": "s3:GetObject",
+			"Resource": "arn:aws:s3:::caper-fe/*"
+		},
+		{
+			"Sid": "3",
+			"Effect": "Allow",
+			"Principal": {
+				"AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity E37KXAJF6DEGGM"
+			},
+			"Action": "s3:GetObject",
+			"Resource": "arn:aws:s3:::caper-fe/*"
+		},
+		{
+			"Sid": "4",
+			"Effect": "Allow",
+			"Principal": {
+				"AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity E37KXAJF6DEGGM"
+			},
+			"Action": "s3:GetObject",
+			"Resource": "arn:aws:s3:::caper-fe/*"
+		}
