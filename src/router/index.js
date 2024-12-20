@@ -12,7 +12,6 @@ import MainChessBoard from '@/components/Chess/MainChessBoard'
 import PageNotFound from '@/components/notFound/PageNotFound'
 import MyMatch from '@/components/MyMatch/MyMatch'
 import TnC from '@/components/tnc/TnC'
-import ContactUs from '@/components/Contact/ContactUs'
 import ResetPasscode from '@/components/ResetPasscode/ResetPasscode'
 
 Vue.use(Router)
@@ -103,12 +102,6 @@ export default new Router({
       path: '/tnc',
       component: TnC,
       name: 'TnC',
-      props: false
-    },
-    {
-      path: '/contact',
-      component: ContactUs,
-      name: 'ContactUs',
       props: false
     },
     {
